@@ -4,7 +4,16 @@ public class Location {
 	
 	private int houseNumber;
 	private String Address;
+	private int locationId;
 	
+	public int getLocationId() {
+		return locationId;
+	}
+
+	public void setLocationId(int locationId) {
+		this.locationId = locationId;
+	}
+
 	public int getHouseNumber() {
 		return houseNumber;
 	}
